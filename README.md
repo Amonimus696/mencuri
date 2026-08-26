@@ -35,6 +35,7 @@
 - [Tech Stack Comparison](#-tech-stack-comparison)
 - [Disclaimer](#-disclaimer)
 - [Contact & Support](#-contact--support)
+- [Developer](#-developer)
 - [License](#-license)
 
 ---
@@ -250,6 +251,24 @@ Informasi lebih lanjut dan kontribusi pengembangan:
 | **Repository GitHub** | [SUCODE-TEAM/web-smk](https://github.com/SUCODE-TEAM/web-smk) |
 | **Lokasi** | Jl. AM. Sangaji No.47, Cokrodiningratan, Kec. Jetis, Kota Yogyakarta |
 
+## ✦ Developer
+
+Developed and maintained by **SUCODE TEAM**:
+
+<div align="center">
+
+<a href="https://github.com/SUCODE-TEAM">
+  <img src="./icon/sucode.png" alt="SUCODE Logo" width="220" />
+</a>
+
+### **SUCODE TEAM**
+*Software & Technology Development*
+
+[![GitHub Organization](https://img.shields.io/badge/GitHub-SUCODE--TEAM-181717?style=flat-square&logo=github)](https://github.com/SUCODE-TEAM)
+[![Repository](https://img.shields.io/badge/Repository-web--smk-FF2D20?style=flat-square&logo=laravel)](https://github.com/SUCODE-TEAM/web-smk)
+
+</div>
+
 ---
 
 ## ✦ License
@@ -262,7 +281,9 @@ Aplikasi ini dirilis di bawah lisensi **MIT License** — bebas untuk digunakan 
 
 · · ────────────── · ·
 
-> 🏫 _SMKN 2 Yogyakarta — The Industrial Culture School_ ✦
+<img src="./icon/sucode.png" alt="SUCODE" width="60" />
+
+> 💻 _Engineered with precision by **SUCODE TEAM**_ ✦
 
 · · ────────────── · ·
 
