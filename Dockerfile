@@ -15,6 +15,9 @@ WORKDIR /app
 
 COPY composer.json composer.lock ./
 
+# Copy artisan sebelum composer install untuk menghindari error post-autoload-dump
+COPY artisan ./
+
 RUN composer install --no-dev --no-interaction --prefer-dist
 
 COPY . .
