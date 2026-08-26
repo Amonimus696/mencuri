@@ -247,7 +247,7 @@ Informasi lebih lanjut dan kontribusi pengembangan:
 
 | Platform | Keterangan |
 |---|---|
-| **Website Resmi** | [SMKN 2 Yogyakarta](https://https://www.smk2-yk.sch.id/) |
+| **Website Resmi** | [SMKN 2 Yogyakarta](https://www.smk2-yk.sch.id/) |
 | **Repository GitHub** | [SUCODE-TEAM/web-smk](https://github.com/SUCODE-TEAM/web-smk) |
 | **Lokasi** | Jl. AM. Sangaji No.47, Cokrodiningratan, Kec. Jetis, Kota Yogyakarta |
 
