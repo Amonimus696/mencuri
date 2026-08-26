@@ -1,42 +1,24 @@
-# Use official PHP image as base
-FROM php:8.2-fpm
+FROM php:8.3-cli
 
-# Set working directory
-WORKDIR /app
-
-# Install system dependencies
 RUN apt-get update && apt-get install -y \
     git \
-    curl \
-    libpq-dev \
-    libmcrypt-dev \
-    libjpeg-dev \
-    libpng-dev \
-    libfreetype6-dev \
-    zip \
     unzip \
+    libsqlite3-dev \
+    libzip-dev \
+    && docker-php-ext-install pdo pdo_sqlite zip \
+    && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Install PHP extensions
-RUN docker-php-ext-install pdo pdo_mysql
-
-# Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Copy composer files first
-COPY composer.json composer.lock* ./
+WORKDIR /app
 
-# Install PHP dependencies
+COPY composer.json composer.lock ./
+
 RUN composer install --no-dev --no-interaction --prefer-dist
 
-# Copy project files
 COPY . .
 
-# Set permissions
-RUN chown -R www-data:www-data /app
+EXPOSE 8000
 
-# Expose port
-EXPOSE 9000
-
-# Start PHP-FPM
-CMD ["php-fpm"]
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
