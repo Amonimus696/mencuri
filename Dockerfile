@@ -19,6 +19,9 @@ RUN composer install --no-dev --no-interaction --prefer-dist
 
 COPY . .
 
+RUN mkdir -p storage bootstrap/cache \
+    && chmod -R 777 storage bootstrap/cache
+
 EXPOSE 8000
 
 CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
