@@ -23,11 +23,14 @@ RUN docker-php-ext-install pdo pdo_mysql
 # Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
-# Copy project files
-COPY . .
+# Copy composer files first
+COPY composer.json composer.lock* ./
 
 # Install PHP dependencies
 RUN composer install --no-dev --no-interaction --prefer-dist
+
+# Copy project files
+COPY . .
 
 # Set permissions
 RUN chown -R www-data:www-data /app
