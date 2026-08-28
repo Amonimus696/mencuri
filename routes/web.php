@@ -6,14 +6,23 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/profil', function () {
+    return view('profil');
+});
+
 Route::get('/tentang', function () {
-    return view('home'); // Placeholder
+    return redirect('/profil');
 });
 
 Route::get('/jurusan', function () {
-    return view('home'); // Placeholder
+    return view('jurusan');
+});
+
+Route::get('/kesiswaan', function () {
+    return view('kesiswaan');
 });
 
 Route::get('/ppdb', function () {
-    return view('home'); // Placeholder
+    return view('ppdb');
 });
+

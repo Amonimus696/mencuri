@@ -21,11 +21,13 @@
             <div>
                 <h4 class="text-white font-bold mb-6 text-lg">Tautan Cepat</h4>
                 <ul class="space-y-3">
-                    <li><a href="/tentang" class="text-sm hover:text-accent transition-colors flex items-center gap-2 group">> Tentang Sekolah</a></li>
-                    <li><a href="/jurusan" class="text-sm hover:text-accent transition-colors flex items-center gap-2 group">> Program Keahlian</a></li>
-                    <li><a href="/ppdb" class="text-sm hover:text-accent transition-colors flex items-center gap-2 group">> Informasi PPDB</a></li>
+                    <li><a href="/profil" class="text-sm hover:text-accent transition-colors flex items-center gap-2 group">&gt; Profil Sekolah</a></li>
+                    <li><a href="/jurusan" class="text-sm hover:text-accent transition-colors flex items-center gap-2 group">&gt; Program Keahlian (Jurusan)</a></li>
+                    <li><a href="/kesiswaan" class="text-sm hover:text-accent transition-colors flex items-center gap-2 group">&gt; Kesiswaan &amp; Ekstrakurikuler</a></li>
+                    <li><a href="/ppdb" class="text-sm hover:text-accent transition-colors flex items-center gap-2 group">&gt; Informasi PPDB</a></li>
                 </ul>
             </div>
+
 
             <!-- Portal -->
             <div>

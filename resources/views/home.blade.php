@@ -2,9 +2,17 @@
     <x-slot name="title">Beranda - SMKN 2 Yogyakarta</x-slot>
 
     <!-- HERO SECTION -->
-    <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-slate-900 pt-20">
-        <div class="absolute inset-0 z-0">
-            <img src="{{ asset('hero-bg.jpg') }}" alt="Campus SMKN 2" class="w-full h-full object-cover opacity-40 scale-105" />
+    <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-slate-950 pt-20">
+        <!-- YouTube Background Video -->
+        <div class="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+            <iframe 
+                class="absolute top-1/2 left-1/2 w-[300vw] h-[300vh] min-w-[177.77vw] min-h-[56.25vw] -translate-x-1/2 -translate-y-1/2 opacity-50 scale-125 pointer-events-none"
+                src="https://www.youtube.com/embed/R1NA1pnGVfw?autoplay=1&mute=1&loop=1&playlist=R1NA1pnGVfw&controls=0&showinfo=0&rel=0&iv_load_policy=3&enablejsapi=1&playsinline=1&disablekb=1" 
+                title="SMKN 2 Yogyakarta Video Background"
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
             <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/60 to-slate-900/40"></div>
             <div class="absolute inset-0 bg-[url('/pattern.svg')] opacity-20"></div>
         </div>
@@ -33,10 +41,14 @@
                         </span>
                         <div class="absolute inset-0 h-full w-full bg-white/20 scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
                     </a>
+                    <a href="/profil" class="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 backdrop-blur-md border border-white/20 text-white font-bold rounded-full hover:bg-white/20 transition-all">
+                        Profil Sekolah
+                    </a>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- STATS BENTO SECTION -->
     <section class="py-24 bg-slate-50">
