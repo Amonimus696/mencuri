@@ -1,68 +1,72 @@
-<footer class="bg-slate-950 text-slate-300 py-16 border-t border-slate-900">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
-            <!-- Brand Col -->
-            <div class="space-y-6">
-                <div class="text-2xl font-black tracking-tighter text-white">
-                    SMKN 2 <span class="text-accent">YOGYAKARTA</span>
+<footer class="bg-slate-950 text-slate-400 pt-16 pb-12 border-t border-slate-800">
+    <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+            <!-- Brand & Info -->
+            <div class="space-y-4">
+                <div class="flex items-center gap-3">
+                    <span class="text-2xl font-black text-white tracking-tighter">SMKN 2 <span class="text-accent">YOGYAKARTA</span></span>
                 </div>
-                <p class="text-sm leading-relaxed text-slate-400">
-                    Sekolah menengah kejuruan bertaraf internasional yang menghasilkan lulusan kompeten, berkarakter, dan berjiwa wirausaha di era industri 4.0.
+                <p class="text-sm text-slate-400 leading-relaxed">
+                    Eks. Princess Juliana School (PJS) — Membentuk lulusan vokasi yang kompeten, berkarakter kuat, dan siap bersaing di era industri global.
                 </p>
-                <div class="flex gap-4">
-                    <a href="#" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-accent hover:text-white transition-colors" aria-label="Facebook">FB</a>
-                    <a href="#" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-accent hover:text-white transition-colors" aria-label="Twitter">TW</a>
-                    <a href="#" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-accent hover:text-white transition-colors" aria-label="Instagram">IG</a>
-                    <a href="#" class="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center hover:bg-accent hover:text-white transition-colors" aria-label="Youtube">YT</a>
+                <div class="flex items-center gap-3 pt-2">
+                    <a href="https://facebook.com" target="_blank" class="w-9 h-9 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-xs font-bold text-white hover:bg-accent hover:text-slate-950 transition-colors">FB</a>
+                    <a href="https://twitter.com" target="_blank" class="w-9 h-9 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-xs font-bold text-white hover:bg-accent hover:text-slate-950 transition-colors">TW</a>
+                    <a href="https://instagram.com" target="_blank" class="w-9 h-9 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-xs font-bold text-white hover:bg-accent hover:text-slate-950 transition-colors">IG</a>
+                    <a href="https://youtube.com" target="_blank" class="w-9 h-9 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-xs font-bold text-white hover:bg-accent hover:text-slate-950 transition-colors">YT</a>
                 </div>
             </div>
 
-            <!-- Quick Links -->
+            <!-- Tautan Cepat -->
             <div>
-                <h4 class="text-white font-bold mb-6 text-lg">Tautan Cepat</h4>
-                <ul class="space-y-3">
-                    <li><a href="/profil" class="text-sm hover:text-accent transition-colors flex items-center gap-2 group">&gt; Profil Sekolah</a></li>
-                    <li><a href="/jurusan" class="text-sm hover:text-accent transition-colors flex items-center gap-2 group">&gt; Program Keahlian (Jurusan)</a></li>
-                    <li><a href="/kesiswaan" class="text-sm hover:text-accent transition-colors flex items-center gap-2 group">&gt; Kesiswaan &amp; Ekstrakurikuler</a></li>
-                    <li><a href="/ppdb" class="text-sm hover:text-accent transition-colors flex items-center gap-2 group">&gt; Informasi PPDB</a></li>
+                <h4 class="text-white font-bold mb-5 text-base uppercase tracking-wider">Tautan Cepat</h4>
+                <ul class="space-y-2.5 text-sm">
+                    <li><a href="/profil" class="hover:text-accent transition-colors flex items-center gap-2">&rsaquo; Tentang Sekolah</a></li>
+                    <li><a href="/jurusan" class="hover:text-accent transition-colors flex items-center gap-2">&rsaquo; Program Keahlian</a></li>
+                    <li><a href="/kesiswaan" class="hover:text-accent transition-colors flex items-center gap-2">&rsaquo; Kesiswaan & Prestasi</a></li>
+                    <li><a href="/ppdb" class="hover:text-accent transition-colors flex items-center gap-2">&rsaquo; Informasi PPDB</a></li>
+                    <li><a href="/profil" class="hover:text-accent transition-colors flex items-center gap-2">&rsaquo; Bursa Kerja Khusus (BKK)</a></li>
                 </ul>
             </div>
 
-
-            <!-- Portal -->
+            <!-- Portal Internal -->
             <div>
-                <h4 class="text-white font-bold mb-6 text-lg">Portal Internal</h4>
-                <ul class="space-y-3">
-                    <li><a href="#" class="text-sm hover:text-accent transition-colors flex items-center gap-2 group">> E-Learning</a></li>
-                    <li><a href="#" class="text-sm hover:text-accent transition-colors flex items-center gap-2 group">> E-Rapor</a></li>
-                    <li><a href="#" class="text-sm hover:text-accent transition-colors flex items-center gap-2 group">> Perpustakaan Digital</a></li>
+                <h4 class="text-white font-bold mb-5 text-base uppercase tracking-wider">Portal Internal</h4>
+                <ul class="space-y-2.5 text-sm">
+                    <li><a href="#" class="hover:text-accent transition-colors flex items-center gap-2">&rsaquo; E-Learning</a></li>
+                    <li><a href="#" class="hover:text-accent transition-colors flex items-center gap-2">&rsaquo; E-Rapor</a></li>
+                    <li><a href="#" class="hover:text-accent transition-colors flex items-center gap-2">&rsaquo; Perpustakaan Digital</a></li>
+                    <li><a href="#" class="hover:text-accent transition-colors flex items-center gap-2">&rsaquo; Sistem Informasi Manajemen</a></li>
+                    <li><a href="#" class="hover:text-accent transition-colors flex items-center gap-2">&rsaquo; Alumni Portal</a></li>
                 </ul>
             </div>
 
-            <!-- Contact -->
+            <!-- Hubungi Kami -->
             <div>
-                <h4 class="text-white font-bold mb-6 text-lg">Hubungi Kami</h4>
-                <ul class="space-y-4">
-                    <li class="flex items-start gap-3 text-sm">
-                        <svg class="text-accent shrink-0 mt-0.5" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                        <span>Jl. A.M. Sangaji No. 47, Yogyakarta</span>
+                <h4 class="text-white font-bold mb-5 text-base uppercase tracking-wider">Hubungi Kami</h4>
+                <ul class="space-y-3 text-sm">
+                    <li class="flex items-start gap-3">
+                        <span class="text-accent mt-0.5">📍</span>
+                        <span>Jl. A.M. Sangaji No. 47, Cokrodiningratan, Jetis, Yogyakarta 55233</span>
                     </li>
-                    <li class="flex items-center gap-3 text-sm">
-                        <svg class="text-accent shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    <li class="flex items-center gap-3">
+                        <span class="text-accent">📞</span>
                         <span>(0274) 513454</span>
                     </li>
-                    <li class="flex items-center gap-3 text-sm">
-                        <svg class="text-accent shrink-0" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                    <li class="flex items-center gap-3">
+                        <span class="text-accent">✉️</span>
                         <span>info@smkn2jogja.sch.id</span>
                     </li>
                 </ul>
             </div>
         </div>
 
-        <div class="mt-16 pt-8 border-t border-slate-900 flex flex-col md:flex-row items-center justify-between gap-4">
-            <p class="text-sm text-slate-500">
-                &copy; {{ date('Y') }} SMK Negeri 2 Yogyakarta. All rights reserved.
-            </p>
+        <div class="pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+            <p>&copy; 2026 SMK Negeri 2 Yogyakarta. All rights reserved.</p>
+            <div class="flex items-center gap-6">
+                <a href="#" class="hover:text-slate-400 transition-colors">Kebijakan Privasi</a>
+                <a href="#" class="hover:text-slate-400 transition-colors">Syarat & Ketentuan</a>
+            </div>
         </div>
     </div>
 </footer>
